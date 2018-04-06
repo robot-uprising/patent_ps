@@ -1,0 +1,7 @@
+{
+  "project": "test",
+  "machineType": "C2",
+  "container": "index.docker.io/matml/docker",
+  "command": "ping -c 4 8.8.8.8",
+  "lastJobId": "jsl9sjtxucfizc"
+}
