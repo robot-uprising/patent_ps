@@ -2,6 +2,5 @@
   "project": "patent_ps",
   "machineType": "C2",
   "container": "index.docker.io/matml/docker",
-  "command": "/paperspace/patent_ps.sh",
-  "lastJobId": "jfvcjkolf1jor"
+  "command": "claim-embedding.sh"
 }
