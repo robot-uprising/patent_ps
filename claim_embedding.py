@@ -18,6 +18,7 @@ with open('C:\\Users\\mgordon\\repos\\patents\\cpc_current.tsv','r') as f:
         output.append(chunk[chunk['group_id'].isin(sgid1)]['patent_id'])
 
 #hello
+print("hello")
 out = np.asarray(output)
 flat = [i for j in out for i in j]
     
