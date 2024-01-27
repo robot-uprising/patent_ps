@@ -17,7 +17,8 @@ with open('C:\\Users\\mgordon\\repos\\patents\\cpc_current.tsv','r') as f:
     for chunk in pd.read_table(f, delimiter = '\t', chunksize=1000000):
         output.append(chunk[chunk['group_id'].isin(sgid1)]['patent_id'])
 
-
+#hello
+print("hello")
 out = np.asarray(output)
 flat = [i for j in out for i in j]
     
